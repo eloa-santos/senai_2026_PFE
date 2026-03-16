@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c2d4f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+/* Estilização dos Títulos */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3, h4 {
+  margin: 10px 0;
+  color: #555;
+}
+
+form, .card-aluno {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels e Inputs */
+label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: -10px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* Botão Moderno */
+button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Resultado da Calculadora */
+h2 {
+  text-align: center;
+  color: #27ae60;
+  margin-top: 20px;
+}
+
+.inputs-group{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.botoes-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 10px;
+}
+
+.btn-limpar {
+  grid-column: span 3; /* O botão limpar ocupa a linha toda */
+  background-color: #e74c3c;
+}
+
+.btn-limpar:hover {
+  background-color: #c0392b;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 15px;
+}

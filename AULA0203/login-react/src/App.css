@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logosenai{
+  width: 700px;
+  height: 250px;
+  
+}
+
+.logosesi{
+  width: 700px;
+  height: 250px;
+}
+
+.titulo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 600%;
+  color: black;
+}
+
+.subtitulo{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;
+  color: rgb(122, 128, 129);
+}
+
+.label{ 
+  color: black;
+}
+ .campo{
+  border-radius:8%;
+  width: 500px;
+  height:30px;
+  background-color: darkgray;
+  border-color: darkgray;
+ }
+
+ .botao{
+  width: 100px;
+ }
