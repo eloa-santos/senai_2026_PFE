@@ -1,14 +1,12 @@
-
-import './App.css'
-import Contador from './componentes/contador'
-import Aluno from './componentes/aluno'
-import BuscaCep from './buscaCep'
-import ConectaAPI from './conectaapi'
+import ListaSimples from "./components/listaSimples";
+import ListaMap from "./components/listaMap";
+import ListaFrutas from "./components/listaFrutas";
 
 function App() {
+  
   return (
     <>
-    <ConectaAPI/>
+     <ListaFrutas titulo='Frutas 🍌🍇🍉'/>
     </>
   )
 }
