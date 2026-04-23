@@ -1,0 +1,87 @@
+/* Header.css */
+
+.header {
+  width: 100%;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Título */
+.header h2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Card do menu */
+.card {
+  background: #ffffff;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Lista */
+.card ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Itens */
+.card li {
+  display: flex;
+}
+
+/* Links */
+.card a {
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: #555;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Hover padrão */
+.card a:hover {
+  background-color: #764ba2;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Botão sair com destaque */
+.sair a {
+  color: #fff;
+  background-color: #764ba2;
+}
+
+.sair a:hover {
+  background-color: #5a3782;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .card ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card a {
+    width: 100%;
+    text-align: center;
+  }
+}
