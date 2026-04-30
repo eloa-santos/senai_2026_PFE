@@ -50,3 +50,13 @@
 .titulo {
     text-align: center;
 }
+
+.chart-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e1e1e1;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
